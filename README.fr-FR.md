@@ -59,6 +59,14 @@ Saisir les faits concernant la personne âgée
 - Tout contenu présenté publiquement doit être désensibilisé.
 - Les contenus générés par l'IA doivent toujours être vérifiés par un humain.
 
+## Besoins de développement et collaboration (Development Needs & Collaboration)
+
+DigniAge · 知老 est un projet open source pensé pour de vrais contextes d'accompagnement solidaire des personnes âgées. Si vous faites partie d'une association, d'une équipe de bénévoles, d'un organisme de services aux aînés, d'une structure de quartier, ou si vous êtes développeur, chercheur, ou simplement en exploration d'outils numériques pour le grand âge, vous pouvez contacter le mainteneur via une GitHub Issue.
+
+Nous accueillons volontiers les idées de fonctionnalités, les retours de déploiement, les besoins de localisation, les suggestions issues du terrain et les demandes de pilotes à vocation sociale. Lorsqu'un besoin présente une réelle utilité publique, une valeur concrète pour les structures ou un potentiel d'aide pour davantage de personnes âgées, le mainteneur fera au mieux pour échanger rapidement, répondre avec attention et accompagner les évolutions dès que possible.
+
+Si vous avez un besoin de développement autour de DigniAge, un projet pilote institutionnel, une suggestion fonctionnelle ou une demande d'adaptation locale, n'hésitez pas à ouvrir une issue. Nous souhaitons avancer au plus près des usages réels du secteur solidaire et de l'accompagnement des aînés, avec des réponses et des améliorations aussi réactives que possible.
+
 ## Quick Start
 
 ```bash

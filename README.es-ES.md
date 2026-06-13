@@ -59,6 +59,14 @@ Introducir los datos básicos de la persona mayor
 - Todo contenido mostrado al público debe estar debidamente anonimizado.
 - El contenido generado por IA debe ser revisado y confirmado por personas.
 
+## Necesidades de desarrollo y colaboración (Development Needs & Collaboration)
+
+DigniAge · 知老 es un proyecto de código abierto pensado para escenarios reales de atención solidaria a personas mayores. Si formas parte de una organización social, un equipo de voluntariado, una entidad de cuidados, una organización comunitaria, o si eres desarrollador, investigador o estás explorando herramientas digitales para el cuidado de personas mayores, puedes contactar con la persona responsable del proyecto a través de GitHub Issues.
+
+Son bienvenidas las sugerencias de funciones, los comentarios sobre despliegue, las necesidades de localización, las propuestas basadas en flujos reales de atención y las solicitudes de pilotos con impacto social. Cuando una necesidad tenga un valor público claro, utilidad práctica para las organizaciones o potencial para ayudar a más personas mayores, la persona mantenedora procurará dialogar de forma activa, responder con rapidez y apoyar mejoras en cuanto sea posible.
+
+Si tienes necesidades de desarrollo relacionadas con DigniAge, interés en un piloto institucional, sugerencias funcionales o peticiones de adaptación local, no dudes en abrir una issue. La intención es colaborar de cerca con contextos reales del trabajo social y del cuidado a personas mayores, respondiendo y mejorando el proyecto con la mayor agilidad posible.
+
 ## Quick Start
 
 ```bash

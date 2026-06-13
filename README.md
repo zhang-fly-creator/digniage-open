@@ -59,6 +59,14 @@ Enter elder facts
 - Any public-facing content must be properly de-identified.
 - AI-generated content must always be reviewed and confirmed by humans.
 
+## Development Needs & Collaboration
+
+DigniAge · 知老 is an open-source project built for real public-interest elder care scenarios. If you are from a nonprofit, volunteer team, elder care provider, community organization, or if you are a developer, researcher, or anyone exploring digital tools for elder support, you are welcome to reach the maintainer through GitHub Issues.
+
+We welcome feature ideas, deployment feedback, localization requests, suggestions based on real elder care workflows, and public-interest pilot needs. When a request has clear public value, practical value for service organizations, or the potential to help more older adults, the maintainer will actively communicate, respond quickly, and support timely improvements when feasible.
+
+If you have development needs related to DigniAge, institutional pilot needs, feature suggestions, or localization adaptation requests, please feel free to open an issue. We want to work closely with real public-welfare and elder care settings and do our best to respond and iterate in time.
+
 ## Quick Start
 
 ```bash
