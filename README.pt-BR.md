@@ -59,13 +59,17 @@ Registrar fatos sobre a pessoa idosa
 - Todo conteúdo exibido publicamente deve ser devidamente anonimizado.
 - Conteúdo gerado por IA deve sempre ser revisado e confirmado por pessoas.
 
-## Necessidades de desenvolvimento e colaboração (Development Needs & Collaboration)
+## Locais de demonstração e colaboração (Demonstration Sites & Collaboration)
 
-DigniAge · 知老 é um projeto de código aberto pensado para cenários reais de cuidado solidário com pessoas idosas. Se você faz parte de uma organização social, equipe de voluntariado, instituição de cuidado, organização comunitária, ou se é desenvolvedor, pesquisador ou está explorando ferramentas digitais para o cuidado de pessoas idosas, fique à vontade para entrar em contato com o mantenedor por meio de uma GitHub Issue.
+DigniAge · 知老 não é apenas um projeto de software de código aberto. É uma ação de cuidado com pessoas idosas voltada ao bem público, um toolkit para construção de locais de demonstração e uma rede global de colaboração open source.
 
-Recebemos com interesse sugestões de funcionalidades, feedback de implantação, necessidades de localização, recomendações baseadas em fluxos reais de atendimento e demandas por pilotos de interesse público. Quando uma demanda tiver valor público claro, utilidade prática para instituições ou potencial para beneficiar mais pessoas idosas, o mantenedor buscará dialogar de forma ativa, responder com rapidez e apoiar melhorias no que for viável.
+Com os cartões de cuidado, os registros de atendimento, a coordenação de voluntariado, a organização assistida por IA e os lembretes de oportunidades de serviço acolhedor, queremos ajudar comunidades, organizações sociais e instituições de cuidado a criar locais de demonstração DigniAge que possam ser replicados e ampliados. Em cenários presenciais de interesse público, essa abordagem já beneficiou centenas de pessoas idosas, e ao longo do próximo ano esperamos apoiar ainda mais pessoas por meio de adoção comunitária e implantação responsável.
 
-Se você tiver necessidades de desenvolvimento relacionadas ao DigniAge, interesse em pilotos institucionais, sugestões de funcionalidades ou pedidos de adaptação local, abra uma issue. A proposta é colaborar de perto com contextos reais do cuidado social e do atendimento à pessoa idosa, respondendo e evoluindo o projeto da forma mais ágil possível.
+Se você faz parte de uma organização social, equipe de voluntariado, instituição de cuidado, organização comunitária, ou se é desenvolvedor, pesquisador ou está explorando ferramentas digitais para o cuidado de pessoas idosas, fique à vontade para entrar em contato com o mantenedor por meio de uma GitHub Issue.
+
+Recebemos com interesse sugestões de funcionalidades, feedback de implantação, necessidades de localização, recomendações baseadas em fluxos reais de atendimento, ideias para ações de interesse público e demandas para construção de locais de demonstração. Quando uma demanda tiver valor público claro, utilidade prática para instituições ou potencial para beneficiar mais pessoas idosas, o mantenedor buscará dialogar de forma ativa, responder com rapidez e apoiar melhorias no que for viável.
+
+Os limites do projeto permanecem: DigniAge não é uma ferramenta de diagnóstico médico, nem de diagnóstico psicológico, nem um sistema de resposta a emergências. Todo conteúdo gerado por IA deve ser revisado e confirmado por pessoas antes do uso.
 
 ## Quick Start
 
