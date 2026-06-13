@@ -1,0 +1,119 @@
+[English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md) | [Deutsch](README.de-DE.md) | [Français](README.fr-FR.md) | [한국어](README.ko-KR.md) | [ไทย](README.th-TH.md) | [Português](README.pt-BR.md) | [Español](README.es-ES.md)
+
+# DigniAge · 知老
+## Global Open-Source Elder Care Tool
+### Open-source AI elder care card and warm service opportunity system
+
+Let every elder be not only cared for, but truly understood.  
+让每一位老人，不只是被照顾，更是被理解。
+
+## What is DigniAge?
+
+DigniAge · 知老 ไม่ใช่ระบบบริหารการดูแลผู้สูงอายุแบบดั้งเดิม และไม่ใช่เครื่องมือแชต AI ทั่วไป
+
+โครงการนี้เป็นเครื่องมือโอเพนซอร์สที่สร้างขึ้นรอบ ๆ Elder Care Card, Warm Service Opportunities, บันทึกการดูแล และการติดตามต่อเนื่อง ช่วยให้ครอบครัว อาสาสมัคร องค์กรสาธารณประโยชน์ ทีมดูแลชุมชน และหน่วยงานดูแลผู้สูงอายุ เข้าใจผู้สูงอายุก่อนเริ่มให้การดูแล
+
+## Core Workflow
+
+กรอกข้อมูลข้อเท็จจริงของผู้สูงอายุ  
+→ สร้างการ์ดดูแลที่มี AI ช่วย  
+→ ค้นหาโอกาสการดูแลอย่างอบอุ่น  
+→ บันทึกการเยี่ยมหรือกิจกรรม  
+→ อัปเดตการติดตามครั้งถัดไป
+
+## Who is it for?
+
+- ครอบครัว
+- อาสาสมัคร
+- องค์กรดูแลผู้สูงอายุ
+- ทีมดูแลชุมชน
+- กลุ่มสาธารณประโยชน์
+- นักพัฒนา
+- นักวิจัย
+- ผู้ริเริ่มงานสาธารณประโยชน์ระดับเมือง
+
+## Core Features
+
+- Elder Care Card
+- คำแนะนำการสื่อสารที่มี AI ช่วย
+- Warm Service Opportunities
+- Service Records
+- เวิร์กโฟลว์ขององค์กรและกิจกรรม
+- รองรับ Supabase Demo
+- การทำงานร่วมกันของชุมชนหลายภาษา
+
+## What it is NOT
+
+- ไม่ใช่เครื่องมือวินิจฉัยทางการแพทย์
+- ไม่ใช่เครื่องมือวินิจฉัยทางจิตวิทยา
+- ไม่ใช่ระบบประเมินระดับการพยาบาลหรือการพึ่งพิง
+- ไม่ใช่ระบบตอบสนองเหตุฉุกเฉิน
+- ไม่ได้ใช้แทนแพทย์ พยาบาล นักสังคมสงเคราะห์ หรือผู้ประเมินวิชาชีพ
+- ไม่เหมาะสำหรับเก็บข้อมูลอ่อนไหวจริงของผู้สูงอายุ หากไม่มีการอนุญาตและมาตรการความปลอดภัยที่เหมาะสม
+
+## Privacy and Data Notice
+
+- ข้อมูล Demo ต้องเป็นข้อมูลสมมติทั้งหมด
+- ห้ามกรอกเลขประจำตัวประชาชน ประวัติการรักษาแบบละเอียด ความขัดแย้งในครอบครัว ข้อมูลทรัพย์สิน ที่อยู่ หรือเบอร์โทรศัพท์จริง
+- ผู้ที่นำไปใช้งานจริงต้องรับผิดชอบเรื่องการยินยอม ความเป็นส่วนตัว ความปลอดภัย และการปฏิบัติตามกฎหมายท้องถิ่นด้วยตนเอง
+- เนื้อหาที่นำออกสู่สาธารณะต้องผ่านการลบข้อมูลระบุตัวตน
+- เนื้อหาที่ AI สร้างขึ้นต้องได้รับการตรวจสอบโดยมนุษย์เสมอ
+
+## Quick Start
+
+```bash
+git clone https://github.com/your-org/digniage.git
+cd digniage
+npm install
+npm run dev
+```
+
+## Supabase Demo Setup
+
+- รัน `supabase/demo/001_schema.sql`
+- รัน `supabase/demo/002_seed_demo_data.sql`
+- ตั้งค่า `.env.local` เฉพาะบนเครื่องของคุณ
+- ในรีโพสาธารณะให้เก็บเฉพาะ `.env.example`
+- ห้าม commit `.env.local`
+- ห้าม commit `service_role` key
+- ห้าม commit ไฟล์สำรองหรือ export ฐานข้อมูลจริง
+
+## Environment Variables
+
+```env
+VITE_DATA_PROVIDER=
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_SUPABASE_PUBLISHABLE_KEY=
+AI_PROVIDER=
+AI_API_KEY=
+AI_BASE_URL=
+AI_MODEL=
+AI_TIMEOUT_MS=
+AI_FALLBACK_TO_MOCK=
+```
+
+## Collaboration
+
+เรายินดีต่อความร่วมมือในรูปแบบต่อไปนี้:
+
+- การร่วมพัฒนาโอเพนซอร์ส
+- โครงการนำร่องเพื่อสาธารณประโยชน์
+- ความร่วมมือกับองค์กร
+- การร่วมสร้างระดับเมือง
+- การสนับสนุนจากองค์กร / มูลนิธิ / CSR
+
+## Brand and Trademark Notice
+
+ชื่อ DigniAge, 知老, 元核知老, KnowElder รวมถึงโลโก้ สโลแกน อัตลักษณ์ทางภาพ และเครื่องหมายบริการอย่างเป็นทางการที่เกี่ยวข้อง ไม่ได้ถูกรวมอยู่ในสิทธิ์การใช้งานซอร์สโค้ด
+
+การใช้โค้ดนี้ไม่ได้หมายความว่าคุณได้รับสถานะเป็นพันธมิตรอย่างเป็นทางการ การรับรองอย่างเป็นทางการ สิทธิ์ในการใช้แบรนด์ หรือสิทธิ์เชิงพาณิชย์
+
+## License
+
+Code: Apache License 2.0  
+See [LICENSE](LICENSE)
+
+## Maintainer
+
+Initiated by Novonuc / 元盒数科

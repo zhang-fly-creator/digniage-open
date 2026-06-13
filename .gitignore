@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files and local secrets
+.env
+.env.local
+.env.production
+.env.*
+.dev.vars
+.dev.vars.*
+*.local
+!.env.example
+
+# Supabase temporary files
+supabase/.temp/
+
+# Database backups and private exports
+backups/
+backups/supabase/
+*.dump
+*.bak
+data.sql
+*-backup.sql
+*_backup.sql
+*.backup.sql
+
+# Local logs
+*.log
+*.err
+.vite-dev*.log
+.vite-dev*.err
+
+# Codex / local development temporary files
+.codex-*.log
+.codex-*.out.log
+.codex-*.err.log
+.codex-static-server.mjs
+
+# Internal handoff docs
+docs/codex-handoffs/
+
+# Repo aggregation / temporary exports
+repomix-output.xml
+repomix-output.*
+
+# System files
+.DS_Store
+Thumbs.db
